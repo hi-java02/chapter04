@@ -7,9 +7,9 @@ public class CircleList {
 
 	// 생성자
 	public CircleList() {
-			cArray = new Circle[3];
-			crtPos = 0;
-		}
+		cArray = new Circle[3];
+		crtPos = 0;
+	}
 
 	// 메소드 g/s
 
