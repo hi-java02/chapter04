@@ -3,7 +3,6 @@ package com.javaex.ex01;
 public class Rectangle {
 
 	//필드
-	
 	private int width;
 	private int height;
 	

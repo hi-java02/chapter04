@@ -28,8 +28,4 @@ public class RectList {
 		return crtPos;
 	}
 	
-	
-	
-	
-	
 }
