@@ -2,13 +2,18 @@ package com.javaex.ex04;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class ListApp {
 
 	public static void main(String[] args) {
 		// ArrayList사용 + Rectaingle
+		
 		//ArrayList<Rectangle> rList = new ArrayList<Rectangle>();
-		LinkedList<Rectangle> rList = new LinkedList<Rectangle>();
+		//LinkedList<Rectangle> rList = new LinkedList<Rectangle>();
+		
+		List<Rectangle> rList = new ArrayList<Rectangle>();
+		//List<Rectangle> rList = new LinkedList<Rectangle>();
 		
 		Rectangle r01 = new Rectangle(3, 3);
 		Rectangle r02 = new Rectangle(4, 4);
@@ -35,6 +40,10 @@ public class ListApp {
 		for (int i = 0; i < rList.size(); i++) {
 			rList.get(i).draw();
 		}
+		System.out.println("===toString()==============================");
+		System.out.println(rList.toString());
+		
+		
 
 		System.out.println("===================================");
 		// 삭제 remove()
@@ -69,7 +78,6 @@ public class ListApp {
 		for(int i=0; i<cList.size(); i++) {
 			cList.get(i).draw();
 		}
-		
 		
 	}
 
