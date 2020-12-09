@@ -42,6 +42,4 @@ public class Rectangle {
 		return "Rectangle [width=" + width + ", height=" + height + "]";
 	}
 	
-	
-	
 }
